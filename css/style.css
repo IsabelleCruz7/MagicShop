@@ -67,7 +67,7 @@
     width: 100%;
   }
   .container .logo {
-    color: #545bc4;
+    color: #A020F0;
     font-size: 40px;
     line-height: 20px;
     padding-right: 15px;
@@ -128,7 +128,7 @@
     outline: none;
   }
   .container .search .button-search {
-    background: #545bc4;
+    background: #A020F0;
     border: 0;
     color: #fff;
     cursor: pointer;
@@ -183,7 +183,7 @@
   }
   .container .nav-content .nav-content-list .nav-content-item .login-list {
     background: #fff;
-    border-bottom: 3px solid #545bc4;
+    border-bottom: 3px solid #A020F0;
     border-radius: 3px;
     box-shadow: 2px 9px 49px -17px rgba(0, 0, 0, 0.3);
     display: none;
@@ -199,7 +199,7 @@
     padding: 15px 20px;
   }
   .container .nav-content .nav-content-list .nav-content-item .login-list .login-list-item:hover {
-    background: #545bc4;
+    background: #A020F0;
   }
   .container .nav-content .nav-content-list .nav-content-item .login-list .login-list-item:hover a {
     color: #fff;
@@ -208,7 +208,7 @@
     color: #e74c3c;
   }
   .container .nav-content .nav-content-list .nav-content-item:hover .fas {
-    color: #545bc4;
+    color: #A020F0;
   }
   .container .nav-content .nav-content-list .account-login .login-text {
     align-items: end;
@@ -268,7 +268,7 @@
     transition: 100ms all linear 0s;
   }
   .nav-container .nav-row .nav-row-list .nav-row-list-link:hover {
-    background: #e1e1e1;
+    background: #DDA0DD;
     width: 100%;
   }
   .nav-container .featured-category {
@@ -282,7 +282,7 @@
   }
   .nav-container .all-navigator {
     align-items: center;
-    background: #545bc4;
+    background: #A020F0;
     color: #fff;
     display: flex;
     height: 40px;
@@ -326,6 +326,14 @@
     display: flex;
     position: relative;
   }
+
+  .nav-container .full-category-nav .open-menu-full {
+    align-items: center;
+    cursor: pointer;
+    display: flex;
+    position: relative;
+  }
+
   .nav-container .all-category-nav .input-menu-all {
     display: none;
   }
@@ -340,7 +348,7 @@
   }
   .nav-container .all-category-list {
     background: #fff;
-    border-bottom: 3px solid #545bc4;
+    border-bottom: 3px solid #A020F0;
     box-shadow: 2px 9px 49px -17px rgba(0, 0, 0, 0.3);
     display: none;
     height: auto;
@@ -358,7 +366,7 @@
   }
   .nav-container .all-category-list-item:hover {
     display: block;
-    background: #545bc4;
+    background: #A020F0;
   }
   .nav-container .all-category-list-item:hover .category-second-list {
     left: 100%;
