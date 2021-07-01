@@ -8,7 +8,7 @@
     <script src="https://kit.fontawesome.com/af562a2a63.js" crossorigin="anonymous"></script>
     <title>Magic Shop</title>
 </head>
-<body>
+<body class="bg" background="img/bts-LY-tear.png">
     <div class="container" >
         <a class="links" id="paracadastro"></a>
         <a class="links" id="paralogin"></a>
@@ -20,9 +20,34 @@
               <h1>Cadastro de Usuário</h1>
               <p> 
                 <label for="nome_cad">Nome:</label>
-                <input id="nome_cad" name="nome_cad" required="required" type="text" placeholder="Luiz Augusto" />
+                <input id="nome_cad" name="nome_cad" required="required" type="text" placeholder="Ex.: Luiz Augusto" />
+              </p>
+
+              <p> 
+                <label for="cpf_cad">CPF:</label>
+                <input id="cpf_cad" name="cpf_cad" required="required" type="text" placeholder="XXX.XXX.XXX-XX" />
+              </p>
+
+              <p> 
+                <label for="end_cad">Endereço:</label>
+                <input id="end_cad" name="end_cad" required="required" type="text" placeholder="Ex.: Rua Orquídea" />
+              </p>
+
+              <p> 
+                <label for="cid_cad">Cidade:</label>
+                <input id="cid_cad" name="cid_cad" required="required" type="text" placeholder="Ex.: Crateús" />
               </p>
               
+              <p> 
+                <label for="est_cad">Estado:</label>
+                <input id="est_cad" name="est_cad" required="required" type="text" placeholder="Ex.: Ceará" />
+              </p>
+
+              <p> 
+                <label for="pais_cad">País:</label>
+                <input id="pais_cad" name="pais_cad" required="required" type="text" placeholder="Ex.: Brasil" />
+              </p>
+
               <p> 
                 <label for="email_cad">E-mail</label>
                 <input id="email_cad" name="email_cad" required="required" type="email" placeholder="contato@htmlecsspro.com"/> 
@@ -30,7 +55,7 @@
               
               <p> 
                 <label for="senha_cad">Senha</label>
-                <input id="senha_cad" name="senha_cad" required="required" type="password" placeholder="1234"/>
+                <input id="senha_cad" name="senha_cad" required="required" type="password"/>
               </p>
               
               <p> 
@@ -38,10 +63,7 @@
               </p>
               
               <p class="link">
-                  <a href="index.html">Home Page</a>
-              </p>
-
-              <p class="link">  
+                <a href="index.html">Início</a>
                 Já tem conta?
                 <a href="TelaLogin.html"> Ir para Login </a>
               </p>
