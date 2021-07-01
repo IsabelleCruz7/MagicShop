@@ -5,13 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="./css/styleCadastro.css"/>
+    <script src="./js/script.js"></script>
     <script src="https://kit.fontawesome.com/af562a2a63.js" crossorigin="anonymous"></script>
     <title>Magic Shop</title>
 </head>
 <body class="bg" background="img/bts-LY-tear.png">
     <div class="container" >
-        <a class="links" id="paracadastro"></a>
-        <a class="links" id="paralogin"></a>
         
         <div class="content">
           <!--FORMULÁRIO DE CADASTRO-->
@@ -54,12 +53,22 @@
               </p>
               
               <p> 
+                <label for="user_cad">Username:</label>
+                <input id="user_cad" name="user_cad" required="required" type="text" placeholder="Ex.: Luiz Augusto" />
+              </p>
+
+              <p> 
                 <label for="senha_cad">Senha</label>
                 <input id="senha_cad" name="senha_cad" required="required" type="password"/>
               </p>
+
+              <p> 
+                <label for="conf_senha_cad">Confirmação de senha</label>
+                <input id="conf_senha_cad" name="conf_senha_cad" required="required" type="password"/>
+              </p>
               
               <p> 
-                <input type="submit" value="Cadastrar"/> 
+                <button class="button" type="button" onclick="cadUser()">Cadastrar</button>
               </p>
               
               <p class="link">
