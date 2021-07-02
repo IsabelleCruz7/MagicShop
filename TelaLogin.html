@@ -1,28 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="css/login.css"/>
-    <title>Magic-Shop/login</title>
-    <script src="js/login.js"></script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="css/login.css" />
+  <title>Magic-Shop/login</title>
+  <script src="js/login.js"></script>
 
 </head>
-<body class="bg" background="./img/bts-LY-c.jpg" >
 
-          
-            <div class="login">
-            <label for="uname"><b>Username</b></label><br>
-            <input type="text" placeholder="Enter Username" name="uname" required><br><br>
-            <label for="psw"><b>Password</b></label><br>
-            <input type="password" placeholder="Enter Password" name="psw" required><br><br>
-            <button onclick="validarLogin()" type="button"> <a href = "TelaUsuarioLogado.html">Login</a></button>
-            <button type="button" class="cancelbtn"> <a href = "index.html">Cancel</a></button> <br><br>
-            <span class="psw">Forgot <a href="#">password?</a></span>
-             </form>
-          </div>
-        </form>
+<body class="bg" background="./img/bts-LY-c.jpg">
+
+    <div class="login">
+      <label for="un">Username</label><br>
+      <input id="un" type="text" placeholder="Enter Username" name="uname" required><br><br>
+      <label for="pass">Password</label><br>
+      <input id="pass" type="password" minlength="4" maxlength="6" placeholder="Enter Password" name="psw" required><br><br>
+      <button type="button" onClick="validarLogin()"> Login </button>
+      <button type="button" onClick="voltarHome()" class="cancelbtn"> Cancel </button> <br><br>
+  
+    </div>
 
 </body>
+
 </html>
