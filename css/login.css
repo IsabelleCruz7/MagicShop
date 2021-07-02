@@ -112,6 +112,26 @@
   input[type="submit"]:hover{
     background: #DA70D6;
   }
+
+  .button{
+    cursor: pointer;  
+    background: #9932CC;
+    padding: 8px 193px;
+    color: #fff;
+    font-size: 20px;  
+    border: 1px solid #fff; 
+    margin-bottom: 10px;  
+    text-shadow: 0 1px 1px #333;
+    
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    
+    transition: all 0.2s linear;
+  }
+
+  .button:hover{
+    background: #DA70D6;
+  }
   
   /*marcando os links para mudar de um formulário para outro */
   .link{
