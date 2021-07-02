@@ -19,7 +19,7 @@
   
   /* content que contem os formulários */
   .content{
-    width: 1200px;
+    width: 500px;
     margin: 0px auto;
     position: relative; 
   }
@@ -87,10 +87,10 @@
   }
   
   /*estilo do botão submit */
-  input[type="submit"]{
+  button[type="button"]{
     width: 100%!important;
     cursor: pointer;  
-    background: #3d9db3;
+    background: #9932CC;
     padding: 8px 5px;
     color: #fff;
     font-size: 20px;  
@@ -103,21 +103,21 @@
     
     transition: all 0.2s linear;
   }
-  input[type="submit"]:hover{
-    background: #4ab3c6;
+  button[type="button"]:hover{
+    background: #DA70D6;
   }
   
   /*marcando os links para mudar de um formulário para outro */
   .link{
     position: absolute;
-    background: #e1eaeb;
-    color: #7f7c7c;
+    background: #DDA0DD;
+    color: black;
     left: 0px;
     height: 20px;
     width: 440px;
     padding: 17px 30px 20px 30px;
     font-size: 16px;
-    text-align: right;
+    text-align: center;
     border-top: 1px solid #dbe5e8;
   
     -webkit-border-radius: 0 0  5px 5px;
@@ -144,85 +144,22 @@
   }
   
   /* estilos para para ambos os formulários */
-  #cadastro, 
-  #login{
+  #cadastro{
     position: absolute;
     top: 0px;
     width: 88%; 
     padding: 18px 6% 60px 6%;
     margin: 0 0 35px 0;
     background: rgb(247, 247, 247);
-    border: 1px solid rgba(147, 184, 189,0.8);
+    border: 1px solid #DDA0DD;
     
-    -webkit-box-shadow: 5px;
     border-radius: 5px;
     
-    -webkit-animation-duration: 0.5s;
-    -webkit-animation-timing-function: ease;
-    -webkit-animation-fill-mode: both;
-  
-    animation-duration: 0.5s;
-    animation-timing-function: ease;
-    animation-fill-mode: both;
   }
+ 
+.bg{
+    background-size: 90%;
+}
+
+
   
-  #paracadastro:target ~ .content #cadastro,
-  #paralogin:target ~ .content #login{
-    z-index: 2;
-    -webkit-animation-name: fadeInLeft;
-    animation-name: fadeInLeft;
-  
-    -webkit-animation-delay: .1s;
-    animation-delay: .1s;
-  }
-  #registro:target ~ .content #login,
-  #paralogin:target ~ .content #cadastro{
-    -webkit-animation-name: fadeOutLeft;
-    animation-name: fadeOutLeft;
-  }
-  
-  /*fadeInLeft*/
-  @-webkit-keyframes fadeInLeft {
-    0% {
-      opacity: 0;
-      -webkit-transform: translateX(-20px);
-    }
-    100% {
-      opacity: 1;
-      -webkit-transform: translateX(0);
-    }
-  }
-  
-  @keyframes fadeInLeft {
-    0% {
-      opacity: 0;
-      transform: translateX(-20px);
-    }
-    100% {
-      opacity: 1;
-      transform: translateX(0);
-    }
-  }
-  
-  /*fadeOutLeft*/
-  @-webkit-keyframes fadeOutLeft {
-    0% {
-      opacity: 1;
-      -webkit-transform: translateX(0);
-    }
-    100% {
-      opacity: 0;
-      -webkit-transform: translateX(-20px);
-    }
-  }
-  
-  @keyframes fadeOutLeft {
-    0% {
-      opacity: 1;
-      transform: translateX(0);
-    }
-    100% {
-      opacity: 0;
-      transform: translateX(-20px);
-    }
-  }
