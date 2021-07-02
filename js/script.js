@@ -78,3 +78,7 @@ function cadUser(){
     //     } 
     // }
 }
+
+function addFavoritos(){
+    alert("adicionado aos favoritos");
+}
