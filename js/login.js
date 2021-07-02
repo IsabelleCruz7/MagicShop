@@ -1,7 +1,7 @@
 function validarLogin(){
     var un = document.getElementById("un");
     console.log("ok");
-    //if(us == ""){
+    if(us == ""){
         //alert("ERRO");
     }
-//}
+}
