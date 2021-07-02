@@ -5,29 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/login.css"/>
-    <script src="https://kit.fontawesome.com/af562a2a63.js" crossorigin="anonymous"></script>
     <title>Magic-Shop/login</title>
+    <script src="js/login.js"></script>
 
 </head>
-<body class="bg" background="wpp-img/bts-LY-c.jpg" bgproperties="fixed">
+<body class="bg" background="img/bts-LY-c.jpg" bgproperties="fixed">
     
       
            <!-- <img src="wpp-img/bts-LY-c.jpg" alt=""> -->
-
+            
            <div class="login">
-            <label for="uname"><b>Username</b></label><br>
-            <input type="text" placeholder="Enter Username" name="uname" required><br><br>
-            <label for="psw"><b>Password</b></label><br>
-            <input type="password" placeholder="Enter Password" name="psw" required><br><br>
-            <button type="submit">Login</button>
+             <form>
+            <label for="uname">Username</label><br>
+            <input id="un" type="text" placeholder="Enter Username" name="uname" required><br><br>
+            <label for="psw">Password</label><br>
+            <input id="pss" type="password" placeholder="Enter Password" name="psw" required><br><br>
+            <button @onclick="validarLogin()" type="button">Login</button>
             <button type="button" class="cancelbtn">Cancel</button> <br><br>
-          </div>
-          <label>
-    
-          <div class="login" >
             <span class="psw">Forgot <a href="#">password?</a></span>
+             </form>
           </div>
-        </form>
+         
                 
     
             
